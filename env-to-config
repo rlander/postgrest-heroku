@@ -34,6 +34,6 @@ done
 
 # Bind to correct host and port for Heroku
 echo "server-host=\"0.0.0.0\"" >> $CONF_PATH
-echo "server-port=${PORT}" >> $CONF_PATH
+echo "server-port=3002" >> $CONF_PATH
 
 exec "$@"
